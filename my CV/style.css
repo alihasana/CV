@@ -1,0 +1,205 @@
+h2, em
+{
+
+	color: blue; 
+	font: bold;
+	text-shadow: 1px 1px 1px black;	
+
+
+}
+
+h1
+{
+
+	box-sizing: border-box;
+	font: bold;
+	text-shadow: 2px 2px 4px black;
+	background-image: url(image/header-noise-blue-center.jpg);
+	color: white;
+	opacity: 0.67;
+	border-radius: 20px;
+	width: 100%;
+	max-height: 200%;
+	min-height: 50%;
+	max-width: 200%;
+	min-width: 50%;
+
+
+}
+@font-face {
+    font-family: 'intro_head_rbase';
+    src: url('fonts/introheadr-base-webfont.eot');
+    src: url('fonts/introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/introheadr-base-webfont.woff2') format('woff2'),
+         url('fonts/introheadr-base-webfont.woff') format('woff'),
+         url('fonts/introheadr-base-webfont.ttf') format('truetype'),
+         url('fonts/introheadr-base-webfont.svg#intro_head_rbase') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.name
+{
+
+	font-size: 250%; 
+	font-family: intro_head_rbase;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.name1
+{
+
+	font-size: 250%; 
+	font-family: intro_head_rbase;
+	text-decoration: underline;
+	text-align: center;
+	text-decoration: underline;
+}
+.souligne
+{
+
+	text-decoration: underline;
+	
+
+}
+
+.imageflottante
+{
+
+	float: right; 
+
+}
+.exp
+{
+	color: blue; 
+	font:bold;
+	text-shadow: 1px 1px 1px black;	
+	font-size:150%;
+	font-weight: 150%;
+
+}
+.merci
+{
+	text-align: right;
+}
+body
+{
+
+	background: #afbacc;
+	border: ridge;
+	border-color: #92a8cc; 
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 6px 6px 0px black;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+	width: 70%;
+	text-align: justify;
+
+}
+
+
+
+a:hover /* Apparence au survol des liens */
+{
+
+	text-decoration: underline;
+   	color: #4bbc3c;
+
+}
+
+figure
+{
+  text-align:center;
+}
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #ed2704;
+}
+
+a:focus /* Quand le visiteur selectionne le lien */
+{
+    background-color: #000000;
+}
+
+a=visited
+{
+	color: #5686d3;
+}
+img {
+    border-radius: 200px;
+	box-shadow: 6px 6px 6px black;
+	opacity: 1;
+}
+
+#conteneur
+{
+    display:table-footer-group;
+    flex-direction: column;
+    height: 300px
+
+
+
+}
+.element /* On prend le deuxième bloc élément */
+{
+    background-color: #a5c1ef;
+    align-self: flex-start; 
+    border-radius: 10px;
+	box-shadow: 6px 6px 6px black;
+	opacity: 1;
+}
+
+nav
+{
+
+	
+	float:left;
+	width: 190px;
+	border:1px solid black;
+	position: fixed;
+
+
+}
+section
+
+{
+	
+	margin-left: 190px;
+	border:1px solid black;
+}
+
+header
+
+{
+
+	
+	border:1px solid black;
+	height: 200px;
+}
+footer
+{
+
+	margin-left: 190px;
+	border:1px solid black;
+}
+
+aside
+{
+
+	margin-left: 190px;
+	border:1px solid black;
+	
+}
+
+article
+{
+	display: inline-block;
+	border:1px solid black;
+	width: 700px;
+}
+li{
+	list-style: none;
+}
